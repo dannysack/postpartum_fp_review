@@ -7,7 +7,7 @@ library(forestplot)
 library(grid)
 loadfonts()
 # setwd
-setwd("/Users/sackd/Box/Vanderbilt University/PhD/Publications/PPC Review/Full Text/")
+setwd("/Users/sackd/Documents/GitHub/postpartum_fp_review/")
 
 # figure 2
 
@@ -75,8 +75,8 @@ fig2 <- ggplot(for_tib) +
         legend.text = element_text(size = 8),
         legend.key.size = unit(0.25, "cm"))
 fig2
-ggsave("../Drafts/fig2.pdf", width = 8, height = 4)
-embed_fonts("../Drafts/fig2.pdf")
+ggsave("../fig2.pdf", width = 8, height = 4)
+embed_fonts("../fig2.pdf")
 
 # figure 3
 
@@ -280,5 +280,5 @@ plot_grid(questions_plot_1, scores_plot_1, ncol = 1,
           labels = "auto", label_size = 10,
           label_fontfamily = "Arial",
           rel_heights = c(1.5, 1))
-ggsave("../Drafts/fig3_alt.pdf", width = 9, height = 7)
-embed_fonts("../Drafts/fig3_alt.pdf")
+ggsave("../fig3_alt.pdf", width = 9, height = 7)
+embed_fonts("../fig3_alt.pdf")
