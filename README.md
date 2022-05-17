@@ -1,5 +1,5 @@
 # postpartum_fp_review
-Code for figures in couples-based interventions and postpartum contraceptive uptake review
+Code for figures in couples-based interventions and postpartum contraceptive uptake review, available at https://www.contraceptionjournal.org/article/S0010-7824(22)00131-7/fulltext
 
 There are two versions of Figure 3, a horizontal and vertical version.
 
